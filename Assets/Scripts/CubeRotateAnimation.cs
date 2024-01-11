@@ -8,7 +8,7 @@ public class СubeRotateAnimation : MonoBehaviour
     [SerializeField] private float _speedScale;
     [SerializeField] private float _speed;
 
-    void Update()
+    private void Update()
     {
         transform.Rotate(0, _speedRotation, 0);
         transform.localScale += new Vector3(_speedScale, _speedScale, _speedScale);
