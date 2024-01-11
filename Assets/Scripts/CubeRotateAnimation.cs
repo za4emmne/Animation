@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cubeRotateAnimation : MonoBehaviour
+public class СubeRotateAnimation : MonoBehaviour
 {
     [SerializeField] private float _speedRotation;
     [SerializeField] private float _speedScale;
